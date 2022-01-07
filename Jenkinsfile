@@ -5,6 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Yay --- building -----'
+                sh 'makefile'
             }
         }
     }
